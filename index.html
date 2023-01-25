@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <center>
+        <h1>Rock-Paper-Scissor</h1>
+        <div class="container">
+        <div class="rpsContainer">
+            <button class="rpsButton" value="Rock"><img src="rock.png" alt="rock"></button>
+            <button class="rpsButton" value="Paper"><img src="paper.png" alt="paper" class="paper"></button>
+            <button class="rpsButton" value="Scissor"><img src="scissors.png" alt="scissor"></button>
+        </div>
+        <!-- Result -->
+        <div class="result-container">
+            <div id="showResult">
+                <div id="player-score"></div>
+                <div id="hands"></div>
+                <div id="result"></div>
+            </div>
+            <div class="clearButton">
+                <button id="clear">
+                    <img src="clear.jpg" alt="clear">
+                </button>
+            </div>
+        </div>
+    </div>
+    </center>
+    
+    <script src="rps.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-color: coral;
+}
+h1{
+    color:rgb(65,64,66);
+    font-size: 40px;
+}
+.container{
+    width:fit-content;
+    background-color: blanchedalmond;
+    border-radius: 5%;
+}
+.rpsContainer{
+    display: flex;
+    height:150px;
+    width:500px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+button{
+    height:100%;
+    width:30%;
+    background: none;
+    border:none;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+button img{
+    height:100%;
+    width:100%;
+    background: none;
+    border-radius: 50%;
+}
+button:active{
+    scale:0.9;
+}
+.paper{
+    height:150px;
+    width:140px;
+}
+.clearButton{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+#showResult{
+    text-align: center;
+}
+#player-score,#hands,#result{
+    font-size:45px;
+    color:black;
+}
